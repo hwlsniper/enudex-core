@@ -1,0 +1,14 @@
+#include <stdint.h>
+#include <enudex/utilities/git_revision.hpp>
+
+#define ENUDEX_GIT_REVISION_SHA "@ENUDEX_GIT_REVISION_SHA@"
+#define ENUDEX_GIT_REVISION_UNIX_TIMESTAMP @ENUDEX_GIT_REVISION_UNIX_TIMESTAMP@
+#define ENUDEX_GIT_REVISION_DESCRIPTION "@ENUDEX_GIT_REVISION_DESCRIPTION@"
+
+namespace enudex { namespace utilities {
+
+const char* const git_revision_sha = ENUDEX_GIT_REVISION_SHA;
+const uint32_t git_revision_unix_timestamp = ENUDEX_GIT_REVISION_UNIX_TIMESTAMP;
+const char* const git_revision_description = ENUDEX_GIT_REVISION_DESCRIPTION;
+
+} } // end namespace enudex::utilities
