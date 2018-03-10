@@ -45,7 +45,7 @@ void new_chain_banner( const enudex::chain::database& db )
       "********************************\n"
       "*                              *\n"
       "*   ------- NEW CHAIN ------   *\n"
-      "*   - Welcome to Enudex! -   *\n"
+      "*   - Welcome to Enudex! -     *\n"
       "*   ------------------------   *\n"
       "*                              *\n"
       "********************************\n"
